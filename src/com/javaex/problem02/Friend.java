@@ -5,6 +5,12 @@ public class Friend {
     private String name;
     private String hp;
     private String school;
+    
+    public void setDb(String name, String hp, String school) {
+        this.name = name;
+        this.hp = hp;
+        this.school = school;
+    }
 
     public String getName() {
         return name;
